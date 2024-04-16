@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body{
+            background-image: url("img8.png");
+            background-size: cover;
+
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(33, 33, 201);
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            left:0;
+            top:0;
+
+        }
+        
+        .b:hover{
+            background-color: rosybrown;
+        }
+        a{
+            padding: 15px;
+            text-decoration: none;
+            color:white;
+            display: block;
+        }
+        #c{
+            padding: 15px;
+            text-decoration: none;
+            color:white;
+            display: block;
+            font-style: oblique;
+            font-weight: bolder;
+            font-size: larger;
+
+        }
+        .parent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 5px; 
+            color: white;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white; 
+            font-weight: bolder;
+            font-size: large;
+        }
+        
+        input[type="button"] {
+            padding: 10px; 
+            background-color: rgb(196, 50, 50);  
+            color: white;
+            border: 5px;
+            cursor: pointer;
+        }
+        .child{
+            display: flex;
+            gap:10px;      
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="c" style="float: left;">My Website</li>
+        <li class="b" style="float: right;"><a href="">Contact</a></li>
+        <li class="b" style="float: right;"><a href="">About</a></li>
+        <li class="b" style="float: right;"><a href="">Home</a></li>
+    </ul>
+    <div class="parent">
+        <h1>Here is Title</h1>
+        <p>The best and comprehensive website ever:</p>
+    <div class="child">
+        <input type="button" value="Sign In">
+        <input type="button" value="Sign Up">
+    </div>
+    
+    
+</body>
+</html>

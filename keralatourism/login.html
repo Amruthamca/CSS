@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body {
+            background-image: url("img12.webp");
+            background-size: cover;
+            backdrop-filter: blur(1px);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: whitesmoke;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .main {
+            display: flex;
+            margin: 5px 200px;
+            padding: 50px;
+        }
+
+        .sub1 {
+            background-color: rgba(11, 10, 10, 0.8);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        label,
+        input[type="text"],
+        input[type="password"]
+        a {
+            color: whitesmoke;
+            text-align: left;
+            text-decoration: none;
+           
+        }
+        input[type="button"]
+        a {
+            color: whitesmoke;
+            text-align: center;
+            text-decoration: none;
+           
+        }
+
+        input[type="text"]::placeholder,
+        input[type="password"]::placeholder {
+            text-align: left;
+
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            color: black;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 8px;
+            background-color: rgb(111, 104, 104);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            left:0;
+            top:0;
+
+        }
+        .b:hover{
+            background-color:rgb(210, 203, 203);
+        }
+        a{
+            padding: 15px;
+            text-decoration: none;
+            color:white;
+            display: block;
+        }
+        #c{
+            padding: 15px;
+            text-decoration: none;
+            color:white;
+            display: block;
+            font-style: oblique;
+            font-weight: bolder;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="c" style="float: left;">🌴 Keralatourism.<span style="color: yellow;">org</span> </li>
+        <li id="c" style="float: left;">Welcome to God's Own Country</li>
+        <li class="b" style="float: right;"><a href="login.html">Log In</a>
+        <li class="b" style="float: right;"><a href="contact.html">Contacts</a></li>
+        <li class="b" style="float: right;"><a href="wheretogo.html">Where to Go</a></li>
+        <li class="b" style="float: right;"><a href="thingstodo.html">Things to do</a></li>
+        <li class="b" style="float: right;"><a href="gallery.html">Gallery</a></li>
+        <li class="b" style="float: right;"><a href="district.html">Districts</a></li>
+        <li class="b" style="float: right;"><a href="home.html">Home</a></li>
+    </ul>
+    <div class="main">
+        <div class="sub1">
+            <h1>Login Here</h1><br>
+            <form>
+                <label for="uname">Username</label>
+                <input type="text" id="uname" placeholder="Enter name">
+                <label for="pswd">Password</label>
+                <input type="password" id="pswd" placeholder="***">
+                <input type="button" value="Sign In">
+                <a href="signup.html" style="color: white;"> New member? Register Here</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
